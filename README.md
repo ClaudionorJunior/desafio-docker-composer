@@ -18,8 +18,10 @@ O retorno da aplicação node.js para o nginx deverá ser:
 ## Subindo Ambiente
 ```
 git clone https://github.com/ClaudionorJunior/desafio-docker-composer.git
-
+```
+```
 cd desafio-docker-composer
-
+```
+```
 docker-compose up -d
 ```
