@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 COPY . .
 
+EXPOSE 3000
+
 ENV DOCKERIZE_VERSION v0.7.0
 
 RUN apt-get update \
